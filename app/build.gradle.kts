@@ -69,6 +69,8 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    implementation(libs.apache.commons.text)
+
     implementation(libs.compose.destinations.core)
     ksp(libs.compose.destinations.ksp)
 }
